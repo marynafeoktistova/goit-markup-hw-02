@@ -44,6 +44,7 @@ font-weight: 700;
   font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+  
 
    
  
@@ -123,6 +124,7 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #434455;
 
    
 }
@@ -176,6 +178,10 @@ font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.header-menu-address-link:hover,
+.header-menu-address-link:focus { color: #404bbf;
+
 }
 .main-team-item {
   background-color: #ffffff;
