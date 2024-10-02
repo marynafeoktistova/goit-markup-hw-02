@@ -103,19 +103,25 @@ font-weight: 400;
       
       color: #2e2f42;
     }
+        .main-item {
+          background: #f4f4fd
+        }
+        
 .main-item-list{
 font-weight: 500;
   font-size: 20px;
-
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  
+  text-align: center;
   color: #2e2f42;
+
 }
 .main-item-text{
   font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 
    
 }
@@ -159,8 +165,4 @@ font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
-}
-.main-item{
-background: #f4f4fd
-}
+    color: #f4f4fd;}
