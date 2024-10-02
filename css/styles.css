@@ -1,5 +1,5 @@
 body{
-  font-family: 'Roboto' sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   color:#434455
 }
@@ -43,6 +43,7 @@ font-weight: 700;
   font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+
    
  
 }
@@ -50,23 +51,23 @@ font-weight: 700;
 .header-link:focus{color: #404bbf}
 
 .main-name{
-  font-weight: 700;
+
     font-size: 56px;
- 
+
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;
-    background: #2e2f42;
-    width: 1440px;
-      height: 600px;
+    color: #fff;}
+.main-title{
+  background: #2e2f42;
 }
+
 .main-btn{
   font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+   
       background: #4d5ae5;}
 
     
