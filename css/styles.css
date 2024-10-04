@@ -12,19 +12,9 @@ a {
   text-decoration: none;
 }
 
-.header-menu-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+/* ________________HEDER _________________ */
 
-}
-
-.header-menu-link:hover,
-.header-menu-link:focus {
-  color: #404bbf
-}
+.header-navigation {}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -37,28 +27,31 @@ a {
 
 }
 
-.accent {
+.header-logo {}
+
+.header-menu-list {}
+
+.header-memu-item {}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.footer-logo {
-  color: #f4f4fd;
-}
-
 
 .header-address {
   font-style: normal;
 }
 
-.header-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf
+}
 
-
-
-
+.accent {
+  color: #2e2f42;
 }
 
 .header-link:hover,
@@ -66,138 +59,9 @@ a {
   color: #404bbf
 }
 
-.main-name {
+.header-contact {}
 
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #fff;
-}
-
-.main-title {
-  background: #2e2f42;
-}
-
-.main-btn {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  cursor: pointer;
-
-  background: #4d5ae5;
-}
-
-
-.main-btn:hover,
-.main-btn:focus {
-
-  background: #404bbf;
-}
-
-.main-features-item {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-
-}
-
-.main-team-subtitle {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
-
-.main-team {
-  background: #f4f4fd
-}
-
-.main-team-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-
-}
-
-.main-team-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-
-
-}
-
-.main-portfolio {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-  text-transform: capitalize;
-}
-
-.main-portfolio-item {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.main-portfolio-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-}
-
-.contancts-logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-
-  color: #f4f4fd;
-}
-
-.post-footer {
-
-  background-color: #2e2f42;
-
-}
-
-.post-footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
+.header-list {}
 
 .header-menu-address-link {
   font-weight: 400;
@@ -213,6 +77,148 @@ a {
 
 }
 
+/* ------------------MAIN------------------------ */
+
+.main-title {
+  background: #2e2f42;
+}
+
+.main-name {
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.main-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background: #4d5ae5;
+}
+
+.main-btn:hover,
+.main-btn:focus {
+  background: #404bbf;
+}
+
+
+.main-features {}
+
+.main-features-subtitle {}
+
+.main-features-list {}
+
+.main-features-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.main-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.main-team {
+  background: #f4f4fd
+}
+
+.main-team-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.main-team-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
 .main-team-item {
   background-color: #ffffff;
+}
+
+.main-team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.main-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.main-portfolio-picture {}
+
+.main-portfolio-list {}
+
+.main-portfolio-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.main-portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
+/* -----------------------------------FOOTER------------------------------- */
+
+.post-footer {
+  background-color: #2e2f42;
+}
+
+.post-footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-logo {
+  color: #f4f4fd;
+}
+
+.contancts-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+
+  color: #f4f4fd;
 }
